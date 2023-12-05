@@ -1,0 +1,7 @@
+[user]
+	email = 18537290+MrVideo@users.noreply.github.com
+	name = Mario Merlo
+[commit]
+	gpgsign = false
+[init]
+	defaultBranch = main
