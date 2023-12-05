@@ -35,3 +35,6 @@ alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 # Other aliases
 alias la='ls -al'
+
+# Environment variables
+export EDITOR='/usr/bin/nvim'
