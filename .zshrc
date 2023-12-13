@@ -38,3 +38,4 @@ alias la='ls -al'
 
 # Environment variables
 export EDITOR='/usr/bin/nvim'
+export GPG_TTY=`tty` # Fixes GPG signing for Git commits
