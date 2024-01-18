@@ -1,0 +1,10 @@
+import = [
+"~/.config/alacritty/tokyonight_storm.toml",
+]
+
+[window]
+dimensions = { columns = 80, lines = 24 }
+
+[font]
+normal = { family = "JetBrains Mono Nerd Font", style = "Regular" }
+size = 11
