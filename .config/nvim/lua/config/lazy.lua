@@ -79,7 +79,7 @@ require("lazy").setup({
 	  ft = { 'markdown' },
 	},
 	{ 'andweeb/presence.nvim' },
-	{ 'tpope/vim-commentary' }
+	{ 'tpope/vim-commentary' },
 })
 
 vim.cmd.colorscheme("tokyonight")
