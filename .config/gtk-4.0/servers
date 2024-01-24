@@ -3,12 +3,12 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="sftp://pacchio/" added="2023-12-13T10:03:21.392729Z" modified="2023-12-29T11:03:27.701094Z" visited="2023-12-29T11:03:27.701092Z">
+  <bookmark href="sftp://pacchio/" added="2023-12-13T10:03:21.392729Z" modified="2024-01-23T13:29:38.508764Z" visited="2024-01-23T13:29:38.508763Z">
     <title>/ on pacchio</title>
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2023-12-29T11:03:27.701093Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-01-23T13:29:38.508763Z" count="5"/>
         </bookmark:applications>
       </metadata>
     </info>
