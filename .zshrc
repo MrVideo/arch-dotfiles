@@ -39,3 +39,7 @@ alias la='ls -al'
 # Environment variables
 export EDITOR='/usr/bin/nvim'
 export GPG_TTY=`tty` # Fixes GPG signing for Git commits
+
+# JRE for Astah UML
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk/jre
+export PATH="$JAVA_HOME/bin:$PATH"
