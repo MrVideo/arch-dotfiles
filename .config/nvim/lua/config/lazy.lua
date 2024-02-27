@@ -27,7 +27,22 @@ require("lazy").setup({
 	"nvim-lua/plenary.nvim",
 	"nvim-telescope/telescope.nvim",
 	"nvim-tree/nvim-web-devicons",
-	"nvim-tree/nvim-tree.lua",
+	{
+		"nvim-tree/nvim-tree.lua",
+		opts = {
+			actions = {
+				open_file = {
+					quit_on_open = true
+				},
+			},
+			filters = {
+				dotfiles = false,
+			},
+			git = {
+				ignore = false,
+			},
+		},
+	},
 	{ 'williamboman/mason-lspconfig.nvim' },
 	{
 		'VonHeikemen/lsp-zero.nvim',
@@ -140,22 +155,19 @@ vim.g.loaded_netrwPlugin = 1
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true
 
--- empty setup using defaults
-require('nvim-tree').setup()
-
 -- OR setup with some options
-require('nvim-tree').setup({
-	sort_by = 'case_sensitive',
-	view = {
-		width = 30,
-	},
-	renderer = {
-		group_empty = true,
-	},
-	filters = {
-		dotfiles = true,
-	},
-})
+-- require('nvim-tree').setup({
+-- 	sort_by = 'case_sensitive',
+-- 	view = {
+-- 		width = 30,
+-- 	},
+-- 	renderer = {
+-- 		group_empty = true,
+-- 	},
+-- 	filters = {
+-- 		dotfiles = true,
+-- 	},
+-- })
 
 -- IMPORTANT: make sure to setup neodev BEFORE lspconfig
 require('neodev').setup({
