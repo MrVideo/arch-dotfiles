@@ -29,7 +29,7 @@ vim.opt.spelllang = 'en,it'
 vim.opt.clipboard = 'unnamedplus'
 
 -- Keymaps
-vim.keymap.set("n", "<C-t>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<C-n>", ":NvimTreeToggle<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<C-u>", "<C-u>zz", { silent = true })
 vim.keymap.set("n", "<C-d>", "<C-d>zz", { silent = true })
 vim.keymap.set("n", "n", "nzz", { silent = true })
