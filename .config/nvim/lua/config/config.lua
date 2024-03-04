@@ -1,5 +1,9 @@
 -- Neovim configurations
 
+-- Disable netrw for nvim-tree
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 -- Line numbers
 vim.opt.number = true
 vim.opt.relativenumber = true
