@@ -23,7 +23,7 @@ return {
 				cmp_lsp.default_capabilities())
 
 			lsp_zero.on_attach(
-				function(client, bufnr)
+				function(_, bufnr)
 					lsp_zero.default_keymaps({ buffer = bufnr })
 				end
 			)
