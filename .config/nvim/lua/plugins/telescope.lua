@@ -26,6 +26,26 @@ return {
 					require('telescope.builtin').help_tags()
 				end
 			},
-		}
+		},
+		config = function ()
+			local telescope = require("telescope")
+			telescope.setup({
+				defaults = {
+					file_ignore_patterns = { "node_modules", ".git" },
+				},
+				pickers = {
+					live_grep = {
+						additional_args = function ()
+							return { "--hidden", "--no-ignore" }
+						end
+					},
+					find_files = {
+						hidden = true,
+						no_ignore = true,
+						no_ignore_parent = true
+					}
+				}
+			})
+		end
 	}
 }
