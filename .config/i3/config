@@ -215,7 +215,7 @@ bar {
 }
 
 # Set custom wallpaper
-exec --no-startup-id feh --bg-fill "/home/mario/Pictures/Wallpapers/JLT4n-BOCCHI-THE-ROCK-artwork-anime-anime-girls-2306434-wallhere-com.jpg"
+exec --no-startup-id feh --bg-fill "/home/mario/Pictures/Wallpapers/IMG_2985.HEIC"
 
 # Set trackpad tapping
 # exec xinput set-prop 9 284 1
