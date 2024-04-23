@@ -30,9 +30,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration #
 ################################################################
 
-# dotfiles alias
-alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
-
 # Other aliases
 alias la='ls -al'
 
