@@ -37,3 +37,5 @@ alias la='ls -al'
 export EDITOR='/usr/bin/nvim'
 export GPG_TTY=`tty` # Fixes GPG signing for Git commits
 
+# Vulkan compile alias
+alias gvk=/home/mario/Documents/Scripts/vkcompile.sh
