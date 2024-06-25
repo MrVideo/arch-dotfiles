@@ -246,3 +246,9 @@ assign [class="discord"] $ws10
 
 # Start dunst notification manager
 exec_always --no-startup-id dunst
+
+# Remove window border
+default_border none
+client.focused #000000 #000000 #ffffff #2e9ef4 #285577
+client.focused_inactive #000000 #000000 #ffffff #2e9ef4 #285577
+client.unfocused #000000 #000000 #ffffff #2e9ef4 #285577
