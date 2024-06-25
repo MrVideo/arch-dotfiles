@@ -180,7 +180,7 @@ bindsym Mod4+Shift+r restart
 bindsym Mod4+Escape exec "loginctl lock-session"
 
 # Shutdown system
-bindsym Mod4+Shift+Escape exec "shutdown now"
+bindsym Mod4+Shift+Delete exec "shutdown now"
 # Reboot system
 bindsym Mod4+Shift+Ctrl+R exec "reboot"
 
