@@ -211,11 +211,14 @@ mode "resize" {
 
 bindsym Mod4+r mode "resize"
 
+# Start polybar
+exec_always --no-startup-id $HOME/.config/polybar/start.sh
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status
-}
+# bar {
+#         status_command i3status
+# }
 
 # Set custom wallpaper
 exec --no-startup-id feh --bg-fill "/home/mario/Pictures/Wallpapers/wallpaper"
