@@ -255,3 +255,7 @@ default_border none
 client.focused #000000 #000000 #ffffff #2e9ef4 #285577
 client.focused_inactive #000000 #000000 #ffffff #2e9ef4 #285577
 client.unfocused #000000 #000000 #ffffff #2e9ef4 #285577
+
+# Add window gaps
+gaps inner 2px
+gaps outer 2px
