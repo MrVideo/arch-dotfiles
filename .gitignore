@@ -1,3 +1,15 @@
 # GTK bookmarks
 .config/gtk-3.0/bookmarks
 .config/gtk-4.0/bookmarks
+
+# dconf directory
+.config/dconf
+
+# Copilot directory
+.config/github-copilot
+
+# Pulseaudio directory
+.config/pulse
+
+# User directories files
+.config/user-*
