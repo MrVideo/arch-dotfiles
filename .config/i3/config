@@ -223,9 +223,6 @@ exec_always --no-startup-id $HOME/.config/polybar/start.sh
 # Set custom wallpaper
 exec --no-startup-id feh --bg-fill "/home/mario/Pictures/Wallpapers/wallpaper"
 
-# Set trackpad tapping
-# exec xinput set-prop 9 284 1
-
 # Set Num Lock on at startup
 exec --no-startup-id numlockx on
 
