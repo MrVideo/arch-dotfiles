@@ -13,3 +13,8 @@
 
 # User directories files
 .config/user-*
+
+# Ignored configs
+.config/go/
+.config/discord/
+.config/htop/
