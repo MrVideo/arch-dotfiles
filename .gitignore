@@ -18,3 +18,10 @@
 .config/go/
 .config/discord/
 .config/htop/
+.config/neofetch/
+.config/qt5ct/
+.config/qt6ct/
+.config/strawberry/
+.config/Thunar/
+.config/xfce4/
+.config/QtProject.conf
