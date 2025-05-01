@@ -5,7 +5,8 @@
 	"modules-right": ["memory", "cpu", "battery", "pulseaudio", "backlight", "tray"],
 
 	"hyprland/window": {
-		"format": "{} "
+		"format": "{}",
+		"separate-outputs": true,
 	},
 
     "clock": {
