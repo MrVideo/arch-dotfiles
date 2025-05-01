@@ -153,6 +153,9 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
+# Multiple monitor setup
+workspace "10" output eDP
+
 # switch to workspace
 bindsym Mod4+1 workspace number $ws1
 bindsym Mod4+2 workspace number $ws2
