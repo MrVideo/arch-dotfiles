@@ -38,8 +38,8 @@ alias code='cd /home/mario/Documents/Code'
 export EDITOR='/usr/bin/nvim'
 export GPG_TTY=`tty` # Fixes GPG signing for Git commits
 
-# Vulkan compile alias
-alias gvk=/home/mario/Documents/Scripts/vkcompile.sh
-
 # Pacman orphan removal alias
 alias orphans='pacman -Qdtq | sudo pacman -Rns -'
+
+# Fix zsh-autosuggestions colour
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=7'
