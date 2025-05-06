@@ -30,7 +30,14 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -i "/home/mario/Pictures/Wallpapers/lock" -e
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -i "/home/mario/Pictures/Wallpapers/lock" -e
+
+# BetterLockScreen config
+exec --no-startup-id betterlockscreen
+exec --no-startup-id source ~/.fehbg
+
+# Start picom on boot
+exec --no-startup-id picom --config $HOME/.config/picom/picom.conf
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -74,7 +81,7 @@ bindsym Mod4+q kill
 bindsym Mod4+d exec "rofi -modi drun,run -show drun"
 
 # open file manager
-bindsym Mod4+f exec nautilus
+bindsym Mod4+f exec thunar
 
 # change focus
 bindsym Mod4+$left focus left
@@ -145,6 +152,9 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
+
+# Multiple monitor setup
+workspace "10" output eDP
 
 # switch to workspace
 bindsym Mod4+1 workspace number $ws1
@@ -223,16 +233,13 @@ exec_always --no-startup-id $HOME/.config/polybar/start.sh
 # Set custom wallpaper
 exec --no-startup-id feh --bg-fill "/home/mario/Pictures/Wallpapers/wallpaper"
 
-# Set trackpad tapping
-# exec xinput set-prop 9 284 1
-
 # Set Num Lock on at startup
 exec --no-startup-id numlockx on
 
 # Media keys
 # Screen brightness controls
-# bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5
-# bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
