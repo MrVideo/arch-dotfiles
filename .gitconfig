@@ -1,7 +1,7 @@
 [user]
 	email = 18537290+MrVideo@users.noreply.github.com
 	name = Mario Merlo
-	signingkey = 777917309CBDAB26
+	signingkey = 8C56A22862F3A3A5
 [commit]
 	gpgsign = true
 [init]
