@@ -31,7 +31,7 @@
         "format-muted": "VOL: MUT ",
     },
 	"backlight": {
-		"device": "amdgpu_bl1",
+		"device": "amdgpu_bl2",
 		"format": "SCR {percent}% ",
 	},
     "tray": {
