@@ -1,8 +1,10 @@
 [user]
 	email = 18537290+MrVideo@users.noreply.github.com
 	name = Mario Merlo
-	signingkey = 8C56A22862F3A3A5
+	signingkey = FEF8A8366F9A5991
 [commit]
 	gpgsign = true
 [init]
 	defaultBranch = main
+[includeIf "gitdir:~/Documents/Code/Perivallon/"]
+	path = ~/.gitconfig-gitlab
