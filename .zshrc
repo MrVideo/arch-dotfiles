@@ -36,7 +36,7 @@ alias code='cd /mnt/c/Users/hello/Code'
 
 # Environment variables
 export EDITOR='/usr/bin/nvim'
-export GPG_TTY=`tty` # Fixes GPG signing for Git commits
+export GPG_TTY=$(tty)
 
 # Pacman orphan removal alias
 alias orphans='pacman -Qdtq | sudo pacman -Rns -'
