@@ -32,7 +32,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Other aliases
 alias la='ls -al'
-alias code='cd /home/mario/Documents/Code'
+alias code='cd /mnt/c/Users/hello/Code'
 
 # Environment variables
 export EDITOR='/usr/bin/nvim'

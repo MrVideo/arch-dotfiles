@@ -6,5 +6,5 @@
 	gpgsign = true
 [init]
 	defaultBranch = main
-[includeIf "gitdir:~/Documents/Code/Perivallon/"]
+[includeIf "gitdir:/mnt/c/Users/hello/Code/Perivallon/**/"]
 	path = ~/.gitconfig-gitlab
