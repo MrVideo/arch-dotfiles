@@ -33,6 +33,9 @@ source $ZSH/oh-my-zsh.sh
 # Other aliases
 alias la='ls -al'
 alias code='cd /home/mario/Documents/Code'
+alias pv='cd /home/mario/Documents/Code/Perivallon'
+alias iaa='cd /home/mario/Documents/Code/Perivallon/iaa.py'
+alias python3='python3.10'
 
 # Environment variables
 export EDITOR='/usr/bin/nvim'
