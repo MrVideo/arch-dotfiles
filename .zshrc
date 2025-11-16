@@ -36,6 +36,7 @@ alias code='cd /home/mario/Documents/Code'
 alias pv='cd /home/mario/Documents/Code/Perivallon'
 alias iaa='cd /home/mario/Documents/Code/Perivallon/iaa.py'
 alias python3='python3.10'
+alias :q='exit'
 
 # Environment variables
 export EDITOR='/usr/bin/nvim'
