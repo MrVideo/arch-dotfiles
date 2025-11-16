@@ -30,3 +30,8 @@
 !.gitconfig-gitlab
 !.zprofile
 !.zshrc
+
+!etc/
+!etc/**
+!usr/
+!usr/**
