@@ -35,3 +35,5 @@
 !etc/**
 !usr/
 !usr/**
+
+!installed_packages.txt
