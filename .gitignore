@@ -1,6 +1,6 @@
 # Ignore everything
 *
-*/*
+*/**
 
 # But not these files and directories
 
@@ -10,9 +10,29 @@
 !system/
 !system/**
 
-# Do exclude home/.config/github-copilot directory and all files within
+# Do exclude some directories
 home/.config/github-copilot/
 home/.config/github-copilot/**
+
+home/.config/Thunar/
+home/.config/Thunar/**
+
+home/.config/dconf/
+home/.config/dconf/**
+
+home/.config/gtk-3.0/
+home/.config/gtk-3.0/**
+
+home/.config/QtProject.conf
+
+home/.config/strawberry/
+home/.config/strawberry/**
+
+home/.config/obsidian/
+home/.config/obsidian/**
+
+home/.config/systemd/
+home/.config/systemd/**
 
 # Setup files
 !installed_packages.txt
