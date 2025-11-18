@@ -10,6 +10,10 @@
 !system/
 !system/**
 
+# Do exclude home/.config/github-copilot directory and all files within
+home/.config/github-copilot/
+home/.config/github-copilot/**
+
 # Setup files
 !installed_packages.txt
 !setup.sh
